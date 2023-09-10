@@ -8,4 +8,9 @@
 
 В задании же требуется описать 4 эндпоинта с методами из CRUD (один эндпоинт на каждый метод). Тему приложения ты уже знаешь!
 
-## Эндпоинты
+## Эндпоинты  
+
+POST/api/v1/new-year/recipes  
+GET/api/v1/new-year/recipes  
+PATCH/api/v1/new-year/recipes/{id03}  
+DELETE/api/v1/new-year/recipes/{id03}  
