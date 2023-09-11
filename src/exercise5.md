@@ -66,24 +66,24 @@
 "completed": true  
 }  
 
-##2.POST/api/v1/Activities    
+## 2.POST/api/v1/Activities    
 - HTTP-метод: POST    
 - Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities    
 - Заголовки запроса: Content-Type: application/*+json; v=1.0, Content-Type: application/json; v=1.0, accept: text/json; v=1.0,    `  
 - Тело запроса:       
-`{  
-  "id": 0,  
-  "title": "string",  
-  "dueDate": "2023-09-10T10:51:50.913Z",  
-  "completed": true  
+{  
+"id": 0,  
+"title": "string",  
+"dueDate": "2023-09-10T10:51:50.913Z",  
+"completed": true  
 }  
 - Статус-код ответа: 200 Success  
 - Тело ответа:  
 {  
-  "id": 0,  
-  "title": "string",  
-  "dueDate": "2023-09-10T10:51:50.913Z",  
-  "completed": true  
+"id": 0,  
+"title": "string",  
+"dueDate": "2023-09-10T10:51:50.913Z",  
+"completed": true  
 }`    
 
 ##3.GET/api​/v1​/Activities​/{id}    
