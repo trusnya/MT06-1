@@ -6,7 +6,7 @@
 - Заголовки запроса: accept: text/plan; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0  
 - Статус-код ответа: 200 Success
 - Тело ответа:  
-`{  
+{  
 "id": 1,  
 "title": "Activity 1",   
 "dueDate": "2023-09-10T11:37:53.2042626+00:00",    
@@ -64,7 +64,7 @@
 "title": "Activity 10",  
 "dueDate": "2023-09-10T20:37:53.2042675+00:00",  
 "completed": true  
-}`  
+}  
 
 ##2.POST/api/v1/Activities    
 - HTTP-метод: POST    
