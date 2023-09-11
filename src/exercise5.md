@@ -92,33 +92,33 @@
 - Заголовки запроса: accept: text/plain; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0  
 - Статус-код ответа: 200 Success   
 - Тело ответа:   
-`{  
+{  
 "id": 5,  
 "title": "Activity 5",  
 "dueDate": "2023-09-10T22:00:23.4569533+00:00",  
 "completed": false  
-}`  
+}  
 
 ## 4.PUT/api​/v1​/Activities​/{id}
 - HTTP-метод: PUT
 - Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities/5
 - Заголовки запроса: accept: text/plain; v=1.0", Content-Type: application/json; v=1.0, Content-Type: text/json; v=1.0, Content-Type: application/*+json; v=1.0
 - Тело запроса: 
-`{
+{
 "id": 0,
 "title": "string",
 "dueDate": "2023-09-10T17:01:07.554Z",
 "completed": true
-}`
+}
 
 - Статус-код ответа: 200 Success
 - Тело ответа:
-`{
+{
 "id": 0,
 "title": "string",
 "dueDate": "2023-09-10T17:01:07.554Z",
 "completed": true
-}`  
+}  
 
 ## 5.DELETE/api​/v1​/Activities​/{id}
 - HTTP-метод: DELETE
@@ -134,68 +134,68 @@
 - Заголовки запроса: accept: text/plain; v=1.0, accept: application/json; v=1.0
 - Статус-код ответа: 200 Success
 - Тело ответа:
-[
-{
-"id": 1,
+[  
+{  
+"id": 1,  
+"idBook": 1,  
+"firstName": "First Name 1",  
+"lastName": "Last Name 1"  
+},  
+{  
+"id": 2,  
+"idBook": 1,  
+"firstName": "First Name 2",  
+"lastName": "Last Name 2"  
+},  
+{  
+"id": 3,  
+"idBook": 1,  
+"firstName": "First Name 3",  
+"lastName": "Last Name 3"  
+},  
+{  
+"id": 4,  
 "idBook": 1,
-"firstName": "First Name 1",
-"lastName": "Last Name 1"
-},
-{
-"id": 2,
-"idBook": 1,
-"firstName": "First Name 2",
-"lastName": "Last Name 2"
-},
-{
-"id": 3,
-"idBook": 1,
-"firstName": "First Name 3",
-"lastName": "Last Name 3"
-},
-{
-"id": 4,
-"idBook": 1,
-"firstName": "First Name 4",
-"lastName": "Last Name 4"
-},
-{
-"id": 5,
-"idBook": 2,
-"firstName": "First Name 5",
-"lastName": "Last Name 5"
-},
-{
-"id": 6,
-"idBook": 2,
-"firstName": "First Name 6",
-"lastName": "Last Name 6"
-},
-{
-"id": 7,
-"idBook": 3,
-"firstName": "First Name 7",
-"lastName": "Last Name 7"
-},
-{
-"id": 8,
-"idBook": 3,
-"firstName": "First Name 8",
-"lastName": "Last Name 8"
-},
-{
-"id": 9,
-"idBook": 3,
-"firstName": "First Name 9",
-"lastName": "Last Name 9"
-},
-{
-"id": 10,
-"idBook": 3,
-"firstName": "First Name 10",
-"lastName": "Last Name 10"
-}
-]
+"firstName": "First Name 4",  
+"lastName": "Last Name 4"  
+},  
+{  
+"id": 5,  
+"idBook": 2,  
+"firstName": "First Name 5",  
+"lastName": "Last Name 5"  
+},  
+{  
+"id": 6,  
+"idBook": 2,  
+"firstName": "First Name 6",  
+"lastName": "Last Name 6"  
+},  
+{  
+"id": 7,  
+"idBook": 3,  
+"firstName": "First Name 7",  
+"lastName": "Last Name 7"  
+},  
+{  
+"id": 8,  
+"idBook": 3,  
+"firstName": "First Name 8",  
+"lastName": "Last Name 8"  
+},  
+{  
+"id": 9,  
+"idBook": 3,  
+"firstName": "First Name 9",  
+"lastName": "Last Name 9"  
+},  
+{  
+"id": 10,  
+"idBook": 3,  
+"firstName": "First Name 10",  
+"lastName": "Last Name 10"  
+}  
+]  
 
 ## 7.POST/api​/v1​/Authors
 - HTTP-метод: POST
