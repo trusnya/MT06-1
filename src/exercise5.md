@@ -8,17 +8,17 @@
 - Тело ответа:  
 `[  
   {  
-    "id": 1,
-    "title": "Activity 1",  
-    "dueDate": "2023-09-10T11:37:53.2042626+00:00",  
-    "completed": false  
-  },  
-  {  
-    "id": 2,  
-    "title": "Activity 2",  
-    "dueDate": "2023-09-10T12:37:53.2042648+00:00",  
-    "completed": true  
-  },  
+    "id": 1,  
+    "title": "Activity 1",   
+    "dueDate": "2023-09-10T11:37:53.2042626+00:00",    
+    "completed": false    
+  },   
+  {    
+    "id": 2,    
+    "title": "Activity 2",    
+    "dueDate": "2023-09-10T12:37:53.2042648+00:00",    
+    "completed": true      
+  },    
   {  
     "id": 3,  
     "title": "Activity 3",  
@@ -71,7 +71,7 @@
 - HTTP-метод: POST    
 - Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities    
 - Заголовки запроса: Content-Type: application/*+json; v=1.0, Content-Type: application/json; v=1.0, accept: text/json; v=1.0,    `  
-- Тело запроса:     
+- Тело запроса:       
 `{  
   "id": 0,  
   "title": "string",  
@@ -105,21 +105,21 @@
 - Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities/5
 - Заголовки запроса: accept: text/plain; v=1.0", Content-Type: application/json; v=1.0, Content-Type: text/json; v=1.0, Content-Type: application/*+json; v=1.0
 - Тело запроса: 
-{
+`{
   "id": 0,
   "title": "string",
   "dueDate": "2023-09-10T17:01:07.554Z",
   "completed": true
-}
+}`
 
 - Статус-код ответа: 200 Success
 - Тело ответа:
-{
+`{
   "id": 0,
   "title": "string",
   "dueDate": "2023-09-10T17:01:07.554Z",
   "completed": true
-}  
+}`  
 
 ##5.DELETE/api​/v1​/Activities​/{id}
 - HTTP-метод: DELETE
