@@ -1,6 +1,6 @@
-#Activities  
+# Activities  
 
-##1.GET/api/v1/Activities  
+## 1.GET/api/v1/Activities  
 - HTTP-метод: GET  
 - Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities  
 - Заголовки запроса: accept: text/plan; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0  
