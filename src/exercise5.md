@@ -1,105 +1,104 @@
-#Activities
+#Activities  
 
-##1.GET/api/v1/Activities
-- HTTP-метод: GET
-- Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities
-- Заголовки запроса: accept: text/plan; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0
+##1.GET/api/v1/Activities  
+- HTTP-метод: GET  
+- Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities  
+- Заголовки запроса: accept: text/plan; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0  
 - Статус-код ответа: 200 Success
-- Тело ответа:
-`[
-  {
+- Тело ответа:  
+`[  
+  {  
     "id": 1,
-    "title": "Activity 1",
-    "dueDate": "2023-09-10T11:37:53.2042626+00:00",
-    "completed": false
-  },
-  {
-    "id": 2,
-    "title": "Activity 2",
-    "dueDate": "2023-09-10T12:37:53.2042648+00:00",
-    "completed": true
-  },
-  {
-    "id": 3,
-    "title": "Activity 3",
-    "dueDate": "2023-09-10T13:37:53.2042651+00:00",
-    "completed": false
-  },
-  {
-    "id": 4,
-    "title": "Activity 4",
-    "dueDate": "2023-09-10T14:37:53.2042653+00:00",
-    "completed": true
-  },
-  {
-    "id": 5,
-    "title": "Activity 5",
-    "dueDate": "2023-09-10T15:37:53.2042656+00:00",
-    "completed": false
-  },
-  {
-    "id": 6,
-    "title": "Activity 6",
-    "dueDate": "2023-09-10T16:37:53.2042661+00:00",
-    "completed": true
-  },
-  {
-    "id": 7,
-    "title": "Activity 7",
-    "dueDate": "2023-09-10T17:37:53.2042664+00:00",
-    "completed": false
-  },
-  {
-    "id": 8,
-    "title": "Activity 8",
-    "dueDate": "2023-09-10T18:37:53.2042666+00:00",
-    "completed": true
-  },
-  {
-    "id": 9,
-    "title": "Activity 9",
-    "dueDate": "2023-09-10T19:37:53.2042669+00:00",
-    "completed": false
-  },
-  {
-    "id": 10,
-    "title": "Activity 10",
-    "dueDate": "2023-09-10T20:37:53.2042675+00:00",
-    "completed": true
-  }
-]`
-##2.POST/api/v1/Activities
-- HTTP-метод: POST
-- Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities
-- Заголовки запроса: Content-Type: application/*+json; v=1.0, Content-Type: application/json; v=1.0, accept: text/json; v=1.0,  
-- Тело запроса: 
-{
-  "id": 0,
-  "title": "string",
-  "dueDate": "2023-09-10T10:51:50.913Z",
-  "completed": true
-}
-- Статус-код ответа: 200 Success
-- Тело ответа:
-{
-  "id": 0,
-  "title": "string",
-  "dueDate": "2023-09-10T10:51:50.913Z",
-  "completed": true
-}
+    "title": "Activity 1",  
+    "dueDate": "2023-09-10T11:37:53.2042626+00:00",  
+    "completed": false  
+  },  
+  {  
+    "id": 2,  
+    "title": "Activity 2",  
+    "dueDate": "2023-09-10T12:37:53.2042648+00:00",  
+    "completed": true  
+  },  
+  {  
+    "id": 3,  
+    "title": "Activity 3",  
+    "dueDate": "2023-09-10T13:37:53.2042651+00:00",  
+    "completed": false  
+  },  
+  {  
+    "id": 4,  
+    "title": "Activity 4",  
+    "dueDate": "2023-09-10T14:37:53.2042653+00:00",  
+    "completed": true  
+  },  
+  {  
+    "id": 5,  
+    "title": "Activity 5",  
+    "dueDate": "2023-09-10T15:37:53.2042656+00:00",  
+    "completed": false  
+  },  
+  {  
+    "id": 6,  
+    "title": "Activity 6",  
+    "dueDate": "2023-09-10T16:37:53.2042661+00:00",  
+    "completed": true  
+  },  
+  {  
+    "id": 7,  
+    "title": "Activity 7",  
+    "dueDate": "2023-09-10T17:37:53.2042664+00:00",  
+    "completed": false  
+  {  
+    "id": 8,  
+    "title": "Activity 8",  
+    "dueDate": "2023-09-10T18:37:53.2042666+00:00",  
+    "completed": true  
+  },  
+  {  
+    "id": 9,  
+    "title": "Activity 9",  
+    "dueDate": "2023-09-10T19:37:53.2042669+00:00",  
+    "completed": false  
+  },  
+  {  
+    "id": 10,  
+    "title": "Activity 10",  
+    "dueDate": "2023-09-10T20:37:53.2042675+00:00",  
+    "completed": true  
+  }  
+]`    
+##2.POST/api/v1/Activities    
+- HTTP-метод: POST    
+- Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities    
+- Заголовки запроса: Content-Type: application/*+json; v=1.0, Content-Type: application/json; v=1.0, accept: text/json; v=1.0,    `  
+- Тело запроса:     
+`{  
+  "id": 0,  
+  "title": "string",  
+  "dueDate": "2023-09-10T10:51:50.913Z",  
+  "completed": true  
+}  
+- Статус-код ответа: 200 Success  
+- Тело ответа:  
+{  
+  "id": 0,  
+  "title": "string",  
+  "dueDate": "2023-09-10T10:51:50.913Z",  
+  "completed": true  
+}`    
 
-##3.GET/api​/v1​/Activities​/{id}
-- HTTP-метод: GET
-- Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities/5
-- Заголовки запроса: accept: text/plain; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0
-- Статус-код ответа: 200 Success 
-- Тело ответа: 
-{
-  "id": 5,
-  "title": "Activity 5",
-  "dueDate": "2023-09-10T22:00:23.4569533+00:00",
-  "completed": false
-}
+##3.GET/api​/v1​/Activities​/{id}    
+- HTTP-метод: GET   
+- Полный URL запроса: https://fakerestapi.azurewebsites.net/api/v1/Activities/5  
+- Заголовки запроса: accept: text/plain; v=1.0, accept: application/json; v=1.0, accept: text/json; v=1.0  
+- Статус-код ответа: 200 Success   
+- Тело ответа:   
+`{  
+  "id": 5,  
+  "title": "Activity 5",  
+  "dueDate": "2023-09-10T22:00:23.4569533+00:00",  
+  "completed": false  
+}`  
 
 ##4.PUT/api​/v1​/Activities​/{id}
 - HTTP-метод: PUT
